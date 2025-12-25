@@ -1,0 +1,11 @@
+[dependencies]
+base = "0.14.13"
+
+[dev-dependencies]
+test = "2.1.1"
+bench = "1.0.0"
+fuzz = "1.0.0"
+
+[toolchain]
+moc = "0.14.13"
+wasmtime = "33.0.1"
