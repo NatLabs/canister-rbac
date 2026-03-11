@@ -1,5 +1,15 @@
+[package]
+name = "canister-rbac"
+description = "A lightweight hierarchical Role-Based Access Control (RBAC) library for Motoko canisters with resource-scoped grants."
+version = "0.1.0"
+keywords = ["access-control"]
+repository = "https://github.com/NatLabs/canister-rbac"
+
 [dependencies]
-base = "0.14.13"
+'core@2.0.0' = "2.0.0"
+"map@9.0.1" = "9.0.1"
+"vector@0.4.2" = "0.4.2"
+"itertools@0.2.2" = "0.2.2"
 
 [dev-dependencies]
 test = "2.1.1"
@@ -7,5 +17,5 @@ bench = "1.0.0"
 fuzz = "1.0.0"
 
 [toolchain]
-moc = "0.14.13"
+moc = "1.0.0"
 wasmtime = "33.0.1"
